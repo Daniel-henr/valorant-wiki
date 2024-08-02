@@ -1,0 +1,528 @@
+.text-agents-content {
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+        padding-top: 5rem;
+        font-size: 50px;
+        color: #0f1923;
+    }
+}
+
+.agents-content {
+    margin-top: 10dvh;
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+
+    h1 {
+        color: #fefef4;
+        font-size: 25px;
+    }
+
+    .details-function{
+        color: #fefef4;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 5px 10dvh;
+    }
+}
+
+.cards {
+    margin: 5dvh 0px;
+    padding: 0dvh 6dvh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8dvh;
+}
+
+.jett-frontSide {
+    background-color: #7EAFC6;
+    background-image: linear-gradient(to bottom right, #7eafc6, #bccdd1);
+    color: #758acb;
+}
+
+.jett-front-content {
+    .jett-character {
+        width: 100%;
+        margin-top: 5dvh;
+        margin-right: 11dvh;
+        filter: drop-shadow(-14px -15px 0px rgb(181, 241, 242));
+    }
+
+    p {
+        font-size: 8dvh;
+        top: 15dvh;
+        left: 11dvh;
+    }
+}
+
+
+.phoenix-frontSide {
+    background-image: linear-gradient(to bottom right, #ff6e3a, #ffa632);
+}
+
+.phoenix-front-content {
+    .phoenix-character {
+        width: 60%;
+        margin-top: 6dvh;
+        margin-right: 8dvh;
+        filter: drop-shadow(-14px -12px 0px #f33c1d);
+    }
+
+    p {
+        font-size: 6.8dvh;
+        color: #2d343c;
+        top: 12.5dvh;
+        left: 5dvh;
+
+    }
+}
+
+.raze-frontSide {
+    background-color: #dd8f4d;
+    background-image: linear-gradient(to bottom right, #e75e13, #f56c3b);
+}
+
+.raze-front-content {
+    .raze-character {
+        width: 68%;
+        margin-top: 4dvh;
+        margin-right: 9dvh;
+        filter: drop-shadow(-12px -10px 0px #53b297);
+    }
+
+    p {
+        font-size: 7dvh;
+        top: 16dvh;
+        left: 11.6dvh;
+        color: #792118;
+    }
+}
+
+.reyna-frontSide {
+    background: linear-gradient(to right, #983586, #c55bfc);
+
+}
+
+.reyna-front-content {
+    .reyna-character {
+        width: 75%;
+        margin-top: 3dvh;
+        margin-right: 10dvh;
+        filter: drop-shadow(-10px -9px 0px #fe66f0);
+    }
+
+    p {
+        font-size: 7dvh;
+        top: 14.5dvh;
+        left: 9dvh;
+        color: #201b2b;
+    }
+}
+
+.yoru-frontSide {
+    background: linear-gradient(to right, #39386d, #4a60b6);
+
+}
+
+.yoru-front-content {
+    .yoru-character {
+        width: 70%;
+        margin-top: 5dvh;
+        margin-right: 12dvh;
+        filter: drop-shadow(-13px -11px 0px #f55114);
+    }
+
+    p {
+        font-size: 7dvh;
+        top: 17dvh;
+        left: 11dvh;
+        color: #333644;
+    }
+}
+
+.neon-frontSide {
+    background: linear-gradient(to right, #113d9e, #90fffc);
+}
+
+.neon-front-content {
+    .neon-character {
+        width: 70%;
+        margin-top: 5dvh;
+        margin-right: 9dvh;
+        filter: drop-shadow(-12px -10px 0px #eeaa55);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 17dvh;
+        left: 11.5dvh;
+        color: #ac90ca;
+    }
+}
+
+.iso-frontSide {
+    background: linear-gradient(to right, #040227, #09084a);
+}
+
+.iso-front-content {
+    .iso-character {
+        width: 100%;
+        margin-top: 6.5dvh;
+        margin-right: 11dvh;
+        filter: drop-shadow(-12px -10px 0px #572fb4);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 23dvh;
+        left: 15.8dvh;
+        color: #dad6ed;
+    }
+}
+
+.breach-frontSide {
+    background: linear-gradient(to right, #6c3318, #ca5826);
+}
+
+.breach-front-content {
+    .breach-character {
+        width: 70%;
+        margin-top: 6.5dvh;
+        margin-right: 11dvh;
+        filter: drop-shadow(-12px -10px 0px #3e4540);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 15dvh;
+        left: 7.5dvh;
+        color: #fff682;
+    }
+}
+
+.sova-frontSide {
+    background: linear-gradient(to right, #10255c, #263ca1);
+}
+
+.sova-front-content {
+    .sova-character {
+        width: 70%;
+        margin-top: 6.5dvh;
+        margin-right: 15dvh;
+        filter: drop-shadow(-12px -10px 0px #38b3dd);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 19dvh;
+        left: 12.5dvh;
+        color: #131a2c;
+    }
+}
+
+.skye-frontSide {
+    background: linear-gradient(to right, #67794d, #39d8a6);
+}
+
+.skye-front-content {
+    .skye-character {
+        width: 70%;
+        margin-top: 6.5dvh;
+        margin-right: 10dvh;
+        filter: drop-shadow(-12px -10px 0px #4f3a39);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 19dvh;
+        left: 13.2dvh;
+        color: #b06042;
+    }
+}
+
+.kayo-frontSide {
+    background: linear-gradient(to right, #222c34, #6e95a9);
+}
+
+.kayo-front-content {
+    .kayo-character {
+        width: 70%;
+        margin-top: 6.5dvh;
+        margin-right: 10dvh;
+        filter: drop-shadow(-12px -10px 0px #ba75ff);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 19dvh;
+        left: 12.5dvh;
+        color: #a3eaff;
+    }
+}
+
+.fade-frontSide {
+    background: linear-gradient(to right, #2d3d59, #a83c49);
+}
+
+.fade-front-content {
+    .fade-character {
+        width: 70%;
+        margin-top: 6.5dvh;
+        margin-right: 15dvh;
+        filter: drop-shadow(-12px -10px 0px #517baf);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 19dvh;
+        left: 12.5dvh;
+        color: #4a5f80;
+    }
+}
+
+.gekko-frontSide {
+    background: linear-gradient(to right, #221151, #7c39e8);
+}
+
+.gekko-front-content {
+    .gekko-character {
+        width: 70%;
+        margin-top: 6.5dvh;
+        margin-right: 14dvh;
+        filter: drop-shadow(-12px -10px 0px #8ff471);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 17dvh;
+        left: 10dvh;
+        color: #c7f05e;
+    }
+}
+
+.omen-frontSide {
+    background: linear-gradient(to right, #142d74, #5464ac);
+}
+
+.omen-front-content {
+    .omen-character {
+        width: 70%;
+        margin-top: 6.5dvh;
+        margin-right: 10dvh;
+        filter: drop-shadow(-12px -10px 0px #778ae7);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 18dvh;
+        left: 11.3dvh;
+        color: #39334f;
+    }
+}
+
+.brim-frontSide {
+    background: linear-gradient(to right, #3d1006, #f08a33);
+}
+
+.brim-front-content {
+    .brim-character {
+        width: 70%;
+        margin-top: 6.5dvh;
+        margin-right: 11dvh;
+        filter: drop-shadow(-12px -10px 0px #687c94);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 19.5dvh;
+        left: 13dvh;
+        color: #aabcd1;
+    }
+}
+
+.viper-frontSide {
+    background: linear-gradient(to right, #274b35, #5c7f6d);
+}
+
+.viper-front-content {
+    .viper-character {
+        width: 70%;
+        margin-top: 6.5dvh;
+        margin-right: 13dvh;
+        filter: drop-shadow(-12px -10px 0px #201626);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 19dvh;
+        left: 11.5dvh;
+        color: #00b441;
+    }
+}
+
+.astra-frontSide {
+    background: linear-gradient(to right, #7013e4, #9440c1);
+}
+
+.astra-front-content {
+    .astra-character {
+        width: 70%;
+        margin-top: 6dvh;
+        margin-right: 11dvh;
+        filter: drop-shadow(-12px -10px 0px #cb33b2);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 17dvh;
+        left: 10.5dvh;
+        color: #292359;
+    }
+}
+
+.harbor-frontSide {
+    background: linear-gradient(to right, #0f2d34, #93886d);
+}
+
+.harbor-front-content {
+    .harbor-character {
+        width: 70%;
+        margin-top: 6dvh;
+        margin-right: 11dvh;
+        filter: drop-shadow(-12px -11px 0px #87806e);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 13.5dvh;
+        left: 7dvh;
+        color: #3f4142;
+    }
+}
+
+.clove-frontSide {
+    background: linear-gradient(to right, #660066, #6d33b4);
+}
+
+.clove-front-content {
+    .clove-character {
+        width: 100%;
+        margin-top: 8dvh;
+        margin-right: 12dvh;
+        filter: drop-shadow(-10px -12px 0px #d891ef);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 15dvh;
+        left: 10.3dvh;
+        color: #b181ff;
+    }
+}
+
+.sage-frontSide {
+    background: linear-gradient(to right, #38646b, #16b199);
+}
+
+.sage-front-content {
+    .sage-character {
+        width: 70%;
+        margin-top: 6dvh;
+        margin-right: 12dvh;
+        filter: drop-shadow(-10px -12px 0px #16b199);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 19dvh;
+        left: 12.8dvh;
+        color: #e8e1ee;
+    }
+}
+
+.cypher-frontSide {
+    background: linear-gradient(to right, #518DD0, #FAA863);
+}
+
+.cypher-front-content {
+    .cypher-character {
+        width: 70%;
+        margin-top: 6dvh;
+        margin-right: 12dvh;
+        filter: drop-shadow(-10px -12px 0px #40F8FA);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 15dvh;
+        left: 8dvh;
+        color: #CED7F7;
+    }
+}
+
+.killjoy-frontSide {
+    background: linear-gradient(to right, #F29F05, #F2D230);
+}
+
+.killjoy-front-content {
+    .killjoy-character {
+        width: 70%;
+        margin-top: 6dvh;
+        margin-right: 12dvh;
+        filter: drop-shadow(-10px -12px 0px #B54FAC);
+    }
+
+    p {
+        font-size: 6.5dvh;
+        top: 15dvh;
+        left: 8dvh;
+        color: #4F805D;
+    }
+}
+
+.chamber-frontSide {
+    background: linear-gradient(to right, #1C1726, #6C6491);
+}
+
+.chamber-front-content {
+    .chamber-character {
+        width: 70%;
+        margin-top: 6dvh;
+        margin-right: 14dvh;
+        filter: drop-shadow(-10px -12px 0px #F24182);
+    }
+
+    p {
+        font-size: 6dvh;
+        top: 12.5dvh;
+        left: 6dvh;
+        color: #E3C670;
+    }
+}
+
+.deadlock-frontSide {
+    background: linear-gradient(to right, #1b1e37, #767d99);
+}
+
+.deadlock-front-content {
+    .deadlock-character {
+        width: 70%;
+        margin-top: 6dvh;
+        margin-right: 8dvh;
+        filter: drop-shadow(-10px -12px 0px #58678f);
+    }
+
+    p {
+        font-size: 5.6dvh;
+        top: 12.5dvh;
+        left: 5.5dvh;
+        color: #3d4155;
+    }
+}
+
+.sentinel {
+    padding-bottom: 3.5dvh;
+}

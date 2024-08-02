@@ -1,0 +1,95 @@
+.navbar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 4%;
+    position: fixed;
+    transition: ease-out .4s;
+    z-index: 1000;
+}
+
+.rolagem {
+    background-color: #0c0c0c;
+    padding: 12px 4%;
+    transition: ease-in .4s;
+    border-bottom: 0;
+    box-shadow: none;
+
+    .nav-content {
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+    }
+}
+
+.nav-content {
+    padding: 16px 8px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 1px 20px -3px rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    li {
+        display: flex;
+        color: #fefaf4;
+    }
+}
+
+.nav-content ul {
+    list-style-type: none;
+
+}
+
+
+.nav-content ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 3em;
+}
+
+.nav-content ul li a {
+    color: #fefaf4;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color .3s ease;
+}
+
+.nav-content ul li a:hover {
+    color: #fc4557;
+}
+
+.link-style::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fc4557;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-style:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+.btn-agenda button {
+    text-align: center;
+    width: 8em;
+    height: 2.5em;
+    border: 0;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgb(255, 51, 66) 0%, rgb(255, 48, 64) 0.01%, rgb(255, 125, 102) 100%);
+    color: #0c0c0c;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: .15vh;
+
+}
