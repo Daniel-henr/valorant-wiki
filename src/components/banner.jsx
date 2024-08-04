@@ -11,7 +11,7 @@ function Banner() {
                 <img src={valorant} />
             </div>
             <div className="animation-btn hidden">
-                <a href="#">Cronograma</a>
+                <a href="https://valorantesports.com/pt-BR/schedule?leagues=champions" target='_blank'>Cronograma</a>
             </div>
         </article>
     )

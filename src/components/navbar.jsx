@@ -32,7 +32,7 @@ function Navbar() {
                 </ul>
             </nav>
             <div className="btn-agenda">
-                <a href="#"><button>Repositório</button></a>
+                <a href="https://github.com/Daniel-henr/valorant-wiki.git" target='_blank'><button>Repositório</button></a>
             </div>
         </div>
 
