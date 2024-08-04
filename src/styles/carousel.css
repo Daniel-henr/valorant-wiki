@@ -4,7 +4,7 @@
 }
 
 .swiper {
-    width: 50%;
+    width: 45dvw;
     height: 200px;
     position: relative;
     overflow: hidden;
@@ -32,31 +32,6 @@
     background: var(--swiper-pagination-color, var(--swiper-theme-color));
 }
 
-.swiper-button-prev-custom,
-.swiper-button-next-custom {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 27px;  /* ajuste o tamanho conforme necessário */
-  height: 44px;  /* ajuste o tamanho conforme necessário */
-  background-color: #bd3844;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.swiper-button-prev-custom {
-  left: -40px; /* ajuste conforme necessário */
-}
-
-.swiper-button-next-custom {
-  right: -40px; /* ajuste conforme necessário */
-}
-
 .ferro{
     background: linear-gradient(135deg, #4b4f50 0%, #1d1f1e 100%);
     justify-content: center;
@@ -64,7 +39,7 @@
     flex-direction: column;
     color: #848486;
     text-transform: uppercase;
-    width: 99dvh;
+    width: 45dvw;
     height: 35dvh;
     border-radius: 2dvh;
 
@@ -74,9 +49,9 @@
     }
 
     img{
-       width: 13dvh;
+       width: 6.5dvw;
        height: auto;
-       margin: 5dvh;
+       margin: 2rem;
        filter: drop-shadow(3px 3px 10px #000000af);
     }
 }
@@ -89,7 +64,7 @@
     flex-direction: column;
     color: #775528;
     text-transform: uppercase;
-    width: 99dvh;
+    width: 45dvw;
     height: 35dvh;
     border-radius: 2dvh;
 
@@ -99,9 +74,9 @@
     }
 
     img{
-       width: 13dvh;
+       width: 6.5dvw;
        height: auto;
-       margin: 5dvh;
+       margin: 2rem;
        filter: drop-shadow(3px 3px 10px #000000af);
     }
 }
@@ -113,7 +88,7 @@
     flex-direction: column;
     color: #cfd3d2;
     text-transform: uppercase;
-    width: 99dvh;
+    width: 45dvw;
     height: 35dvh;
     border-radius: 2dvh;
 
@@ -123,9 +98,9 @@
     }
 
     img{
-       width: 13dvh;
+       width: 6.5dvw;
        height: auto;
-       margin: 5dvh;
+       margin: 2rem;
        filter: drop-shadow(3px 3px 10px #000000af);
     }
 }
@@ -137,7 +112,7 @@
     flex-direction: column;
     color: #eec66a;
     text-transform: uppercase;
-    width: 99dvh;
+    width: 45dvw;
     height: 35dvh;
     border-radius: 2dvh;
 
@@ -147,9 +122,9 @@
     }
 
     img{
-       width: 13dvh;
+       width: 6.5dvw;
        height: auto;
-       margin: 5dvh;
+       margin: 2rem;
        filter: drop-shadow(3px 3px 10px #000000af);
     }
 }
@@ -161,7 +136,7 @@
     flex-direction: column;
     color: #02c8be;
     text-transform: uppercase;
-    width: 99dvh;
+    width: 45dvw;
     height: 35dvh;
     border-radius: 2dvh;
 
@@ -171,9 +146,9 @@
     }
 
     img{
-       width: 13dvh;
+       width: 6.5dvw;
        height: auto;
-       margin: 5dvh;
+       margin: 2rem;
        filter: drop-shadow(3px 3px 10px #000000af);
     }
 }
@@ -185,7 +160,7 @@
     flex-direction: column;
     color: #793bb0;
     text-transform: uppercase;
-    width: 99dvh;
+    width: 45dvw;
     height: 35dvh;
     border-radius: 2dvh;
 
@@ -195,9 +170,9 @@
     }
 
     img{
-       width: 13dvh;
+       width: 6.5dvw;
        height: auto;
-       margin: 5dvh;
+       margin: 2rem;
        filter: drop-shadow(3px 3px 10px #000000af);
     }
 }
@@ -209,7 +184,7 @@
     flex-direction: column;
     color: #0e8a36;
     text-transform: uppercase;
-    width: 99dvh;
+    width: 45dvw;
     height: 35dvh;
     border-radius: 2dvh;
 
@@ -219,7 +194,7 @@
     }
 
     img{
-       width: 13dvh;
+       width: 6.5dvw;
        height: auto;
        margin: 5dvh;
        filter: drop-shadow(3px 3px 10px #000000af);
@@ -233,7 +208,7 @@
     flex-direction: column;
     color: #fa585a;
     text-transform: uppercase;
-    width: 99dvh;
+    width: 45dvw;
     height: 35dvh;
     border-radius: 2dvh;
 
@@ -243,9 +218,9 @@
     }
 
     img{
-       width: 13dvh;
+       width: 6.5dvw;
        height: auto;
-       margin: 5dvh;
+       margin: 2rem;
        filter: drop-shadow(3px 3px 10px #000000af);
     }
 }
@@ -257,7 +232,7 @@
     flex-direction: column;
     color: #fdf0a5;
     text-transform: uppercase;
-    width: 99dvh;
+    width: 45dvw;
     height: 35dvh;
     border-radius: 2dvh;
 
@@ -267,9 +242,9 @@
     }
 
     img{
-       width: 13dvh;
+       width: 6.5dvw;
        height: auto;
-       margin: 5dvh;
+       margin: 2rem;
        filter: drop-shadow(3px 3px 10px #000000af);
     }
 }

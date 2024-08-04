@@ -24,17 +24,17 @@
         color: #fefef4;
         font-size: 18px;
         font-weight: 400;
-        margin: 5px 10dvh;
+        margin: 5px 5dvw;
     }
 }
 
 .cards {
     margin: 5dvh 0px;
-    padding: 0dvh 6dvh;
+    padding: 0dvh 3dvw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8dvh;
+    gap: 4dvw;
 }
 
 .jett-frontSide {
@@ -47,14 +47,14 @@
     .jett-character {
         width: 100%;
         margin-top: 5dvh;
-        margin-right: 11dvh;
+        margin-right: 5dvw;
         filter: drop-shadow(-14px -15px 0px rgb(181, 241, 242));
     }
 
     p {
         font-size: 8dvh;
         top: 15dvh;
-        left: 11dvh;
+        left: 5.5dvw;
     }
 }
 
@@ -67,7 +67,7 @@
     .phoenix-character {
         width: 60%;
         margin-top: 6dvh;
-        margin-right: 8dvh;
+        margin-right: 4dvw;
         filter: drop-shadow(-14px -12px 0px #f33c1d);
     }
 
@@ -75,7 +75,7 @@
         font-size: 6.8dvh;
         color: #2d343c;
         top: 12.5dvh;
-        left: 5dvh;
+        left: 2.5dvw;
 
     }
 }
@@ -89,14 +89,14 @@
     .raze-character {
         width: 68%;
         margin-top: 4dvh;
-        margin-right: 9dvh;
+        margin-right: 4dvw;
         filter: drop-shadow(-12px -10px 0px #53b297);
     }
 
     p {
         font-size: 7dvh;
         top: 16dvh;
-        left: 11.6dvh;
+        left: 5.7dvw;
         color: #792118;
     }
 }
@@ -110,14 +110,14 @@
     .reyna-character {
         width: 75%;
         margin-top: 3dvh;
-        margin-right: 10dvh;
+        margin-right: 5dvw;
         filter: drop-shadow(-10px -9px 0px #fe66f0);
     }
 
     p {
         font-size: 7dvh;
         top: 14.5dvh;
-        left: 9dvh;
+        left: 4.4dvw;
         color: #201b2b;
     }
 }
@@ -131,14 +131,14 @@
     .yoru-character {
         width: 70%;
         margin-top: 5dvh;
-        margin-right: 12dvh;
+        margin-right: 6dvw;
         filter: drop-shadow(-13px -11px 0px #f55114);
     }
 
     p {
         font-size: 7dvh;
         top: 17dvh;
-        left: 11dvh;
+        left: 5.3dvw;
         color: #333644;
     }
 }
@@ -151,14 +151,14 @@
     .neon-character {
         width: 70%;
         margin-top: 5dvh;
-        margin-right: 9dvh;
+        margin-right: 4.5dvw;
         filter: drop-shadow(-12px -10px 0px #eeaa55);
     }
 
     p {
         font-size: 6.5dvh;
         top: 17dvh;
-        left: 11.5dvh;
+        left: 5.6dvw;
         color: #ac90ca;
     }
 }
@@ -171,14 +171,14 @@
     .iso-character {
         width: 100%;
         margin-top: 6.5dvh;
-        margin-right: 11dvh;
+        margin-right: 5.5dvw;
         filter: drop-shadow(-12px -10px 0px #572fb4);
     }
 
     p {
         font-size: 6.5dvh;
         top: 23dvh;
-        left: 15.8dvh;
+        left: 7.7dvw;
         color: #dad6ed;
     }
 }
@@ -191,14 +191,14 @@
     .breach-character {
         width: 70%;
         margin-top: 6.5dvh;
-        margin-right: 11dvh;
+        margin-right: 5.5dvw;
         filter: drop-shadow(-12px -10px 0px #3e4540);
     }
 
     p {
         font-size: 6.5dvh;
         top: 15dvh;
-        left: 7.5dvh;
+        left: 3.5dvw;
         color: #fff682;
     }
 }
@@ -211,14 +211,14 @@
     .sova-character {
         width: 70%;
         margin-top: 6.5dvh;
-        margin-right: 15dvh;
+        margin-right: 7dvw;
         filter: drop-shadow(-12px -10px 0px #38b3dd);
     }
 
     p {
         font-size: 6.5dvh;
         top: 19dvh;
-        left: 12.5dvh;
+        left: 5.8dvw;
         color: #131a2c;
     }
 }
@@ -231,14 +231,14 @@
     .skye-character {
         width: 70%;
         margin-top: 6.5dvh;
-        margin-right: 10dvh;
+        margin-right: 5dvw;
         filter: drop-shadow(-12px -10px 0px #4f3a39);
     }
 
     p {
         font-size: 6.5dvh;
         top: 19dvh;
-        left: 13.2dvh;
+        left: 6.4dvw;
         color: #b06042;
     }
 }
@@ -251,14 +251,14 @@
     .kayo-character {
         width: 70%;
         margin-top: 6.5dvh;
-        margin-right: 10dvh;
+        margin-right: 5dvw;
         filter: drop-shadow(-12px -10px 0px #ba75ff);
     }
 
     p {
         font-size: 6.5dvh;
         top: 19dvh;
-        left: 12.5dvh;
+        left: 6vw;
         color: #a3eaff;
     }
 }
@@ -271,14 +271,14 @@
     .fade-character {
         width: 70%;
         margin-top: 6.5dvh;
-        margin-right: 15dvh;
+        margin-right: 7dvw;
         filter: drop-shadow(-12px -10px 0px #517baf);
     }
 
     p {
         font-size: 6.5dvh;
         top: 19dvh;
-        left: 12.5dvh;
+        left: 6dvw;
         color: #4a5f80;
     }
 }
@@ -291,14 +291,14 @@
     .gekko-character {
         width: 70%;
         margin-top: 6.5dvh;
-        margin-right: 14dvh;
+        margin-right: 7dvw;
         filter: drop-shadow(-12px -10px 0px #8ff471);
     }
 
     p {
         font-size: 6.5dvh;
         top: 17dvh;
-        left: 10dvh;
+        left: 4.7dvw;
         color: #c7f05e;
     }
 }
@@ -311,14 +311,14 @@
     .omen-character {
         width: 70%;
         margin-top: 6.5dvh;
-        margin-right: 10dvh;
+        margin-right: 5dvw;
         filter: drop-shadow(-12px -10px 0px #778ae7);
     }
 
     p {
         font-size: 6.5dvh;
         top: 18dvh;
-        left: 11.3dvh;
+        left: 5.3dvw;
         color: #39334f;
     }
 }
@@ -331,14 +331,14 @@
     .brim-character {
         width: 70%;
         margin-top: 6.5dvh;
-        margin-right: 11dvh;
+        margin-right: 5.7dvw;
         filter: drop-shadow(-12px -10px 0px #687c94);
     }
 
     p {
         font-size: 6.5dvh;
         top: 19.5dvh;
-        left: 13dvh;
+        left: 6dvw;
         color: #aabcd1;
     }
 }
@@ -351,14 +351,14 @@
     .viper-character {
         width: 70%;
         margin-top: 6.5dvh;
-        margin-right: 13dvh;
+        margin-right: 6dvw;
         filter: drop-shadow(-12px -10px 0px #201626);
     }
 
     p {
         font-size: 6.5dvh;
         top: 19dvh;
-        left: 11.5dvh;
+        left: 5.5dvw;
         color: #00b441;
     }
 }
@@ -371,14 +371,14 @@
     .astra-character {
         width: 70%;
         margin-top: 6dvh;
-        margin-right: 11dvh;
+        margin-right: 5dvw;
         filter: drop-shadow(-12px -10px 0px #cb33b2);
     }
 
     p {
         font-size: 6.5dvh;
         top: 17dvh;
-        left: 10.5dvh;
+        left: 5dvw;
         color: #292359;
     }
 }
@@ -391,14 +391,14 @@
     .harbor-character {
         width: 70%;
         margin-top: 6dvh;
-        margin-right: 11dvh;
+        margin-right: 5.5dvw;
         filter: drop-shadow(-12px -11px 0px #87806e);
     }
 
     p {
         font-size: 6.5dvh;
         top: 13.5dvh;
-        left: 7dvh;
+        left: 3.2dvw;
         color: #3f4142;
     }
 }
@@ -411,14 +411,14 @@
     .clove-character {
         width: 100%;
         margin-top: 8dvh;
-        margin-right: 12dvh;
+        margin-right: 5.7dvw;
         filter: drop-shadow(-10px -12px 0px #d891ef);
     }
 
     p {
         font-size: 6.5dvh;
         top: 15dvh;
-        left: 10.3dvh;
+        left: 4.9dvw;
         color: #b181ff;
     }
 }
@@ -431,14 +431,14 @@
     .sage-character {
         width: 70%;
         margin-top: 6dvh;
-        margin-right: 12dvh;
+        margin-right: 5.7dvw;
         filter: drop-shadow(-10px -12px 0px #16b199);
     }
 
     p {
         font-size: 6.5dvh;
         top: 19dvh;
-        left: 12.8dvh;
+        left: 6dvw;
         color: #e8e1ee;
     }
 }
@@ -451,14 +451,14 @@
     .cypher-character {
         width: 70%;
         margin-top: 6dvh;
-        margin-right: 12dvh;
+        margin-right: 5.7dvw;
         filter: drop-shadow(-10px -12px 0px #40F8FA);
     }
 
     p {
         font-size: 6.5dvh;
         top: 15dvh;
-        left: 8dvh;
+        left: 3.7dvw;
         color: #CED7F7;
     }
 }
@@ -471,14 +471,14 @@
     .killjoy-character {
         width: 70%;
         margin-top: 6dvh;
-        margin-right: 12dvh;
+        margin-right: 5.7dvw;
         filter: drop-shadow(-10px -12px 0px #B54FAC);
     }
 
     p {
         font-size: 6.5dvh;
         top: 15dvh;
-        left: 8dvh;
+        left: 3.7dvw;
         color: #4F805D;
     }
 }
@@ -491,14 +491,14 @@
     .chamber-character {
         width: 70%;
         margin-top: 6dvh;
-        margin-right: 14dvh;
+        margin-right: 7dvw;
         filter: drop-shadow(-10px -12px 0px #F24182);
     }
 
     p {
         font-size: 6dvh;
         top: 12.5dvh;
-        left: 6dvh;
+        left: 2.7dvw;
         color: #E3C670;
     }
 }
@@ -511,14 +511,14 @@
     .deadlock-character {
         width: 70%;
         margin-top: 6dvh;
-        margin-right: 8dvh;
+        margin-right: 4dvw;
         filter: drop-shadow(-10px -12px 0px #58678f);
     }
 
     p {
         font-size: 5.6dvh;
         top: 12.5dvh;
-        left: 5.5dvh;
+        left: 2.5dvw;
         color: #3d4155;
     }
 }

@@ -34,7 +34,7 @@
 
 .right {
     display: flex;
-    margin-right: 10dvh;
+    margin-right: 5dvw;
 
     h3 {
         font-size: 24px;
@@ -49,7 +49,7 @@
 }
 
 .right img:nth-child(1){
-    width: 70dvh;
+    width: 34dvw;
     height: 36dvh;
     filter: drop-shadow(4px 2px 5px #000000c4);
     margin: -8dvh 10dvh 0dvh -5dvh;
@@ -57,7 +57,7 @@
 }
 
 .right img:nth-child(2){
-    width: 40dvh;
+    width: 19dvw;
     height: 36dvh;
     filter: drop-shadow(3px 2px 5px #000000c4);
     margin: 8dvh 20dvh 0dvh -15dvh;
@@ -83,10 +83,10 @@
     }
 
     img{
-        width: 40dvh;
+        width: 19dvw;
         height: auto;
         filter: drop-shadow(3px 1px 6px #000000c4);
-        margin-left: 40dvh;
+        margin-left: 19dvw;
     }
 }
 

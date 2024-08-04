@@ -2,6 +2,7 @@
     background-image: url(../assets/test.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 105vh;
     display: flex;
@@ -15,7 +16,7 @@
 .banner-text{
     font-size: 16px;
     color: #fefaf4;
-    letter-spacing: 0.1vh;
+    letter-spacing: 0.1dvw;
     
     
 }
@@ -31,13 +32,13 @@
 .animation-btn{
     border: 1px solid#fefaf4;
     padding: 16px 3px;
-    margin-top: 3vh;
+    margin-top: 3dvh;
     
     a{
         color: #fefaf4;
         font-size: 16px;
         font-weight: 500;
-        letter-spacing: 0.1vh;
+        letter-spacing: 0.1dvw;
         background-color: #fc4557;
         text-decoration: none;
         padding: 13px 34px;
