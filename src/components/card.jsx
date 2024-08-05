@@ -1,7 +1,7 @@
 import '../styles/card.css'
+import duelistLogo from '../assets/agents/duelista/DuelistClassSymbol.png'
 
-
-function Card({ imageSrc, character, name, frontSideClass, frontContentClass}) {
+function Card({ imageSrc, character, name, frontSideClass, frontContentClass, imgClass}) {
   
     return (
         <div className='card'>
@@ -13,9 +13,21 @@ function Card({ imageSrc, character, name, frontSideClass, frontContentClass}) {
                     </div>
                 </div>
                 <div className="back-side">
-                    <div className="back-content">
-                        test-more
+                    <div className="function-logo">
+                        <img src={imgClass} alt=""  />
                     </div>
+                   <div className="repeat-name">
+                    <span className='principal-name'>valorant</span>
+                    <span>valorant</span>
+                    <span>valorant</span>
+                    <span>valorant</span>
+                    <span>valorant</span>
+                    <span>valorant</span>
+                    <span>valorant</span>
+                    <span>valorant</span>
+                    <span>valorant</span>
+                    <span>valorant</span>
+                   </div>
                 </div>
             </div>
         </div>

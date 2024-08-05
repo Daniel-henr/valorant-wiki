@@ -1,6 +1,10 @@
 import '../styles/agent.css'
 import Card from './card'
 import images from '../js/images'
+import duelistLogo from '../assets/agents/duelista/DuelistClassSymbol.png'
+import intiatorLogo from '../assets/agents/iniciador/initiatorLogo.png'
+import controllerLogo from '../assets/agents/controlador/controller_logo.png'
+import sentinelLogo from '../assets/agents/sentinela/sentinel_logo.png'
 
 
 function Agent() {
@@ -24,6 +28,7 @@ function Agent() {
                                 name={agent}
                                 frontSideClass={`${agent}-frontSide`}
                                 frontContentClass={`${agent}-front-content`}
+                                imgClass={duelistLogo}
                             />
                         ))}
 
@@ -43,6 +48,7 @@ function Agent() {
                                 name={agent}
                                 frontSideClass={`${agent}-frontSide`}
                                 frontContentClass={`${agent}-front-content`}
+                                imgClass={intiatorLogo}
                                 animationDelay={`${index * 0.2}s`}
                             />
                         ))}
@@ -63,6 +69,7 @@ function Agent() {
                                 character={`${agent}-character`}
                                 frontSideClass={`${agent}-frontSide`}
                                 frontContentClass={`${agent}-front-content`}
+                                imgClass={controllerLogo}
                             />
                         ))}
                     </div>
@@ -82,6 +89,7 @@ function Agent() {
                                 character={`${agent}-character`}
                                 frontSideClass={`${agent}-frontSide`}
                                 frontContentClass={`${agent}-front-content`}
+                                imgClass={sentinelLogo}
                             />
                         ))}
                     </div>
