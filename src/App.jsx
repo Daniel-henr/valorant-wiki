@@ -6,6 +6,7 @@ import About from './components/about'
 import Agent from './components/agent'
 import Rank from './components/rank'
 import Competitive from './components/competitive'
+import Footer from './components/footer'
 import { ScrollReveal } from './js/scroll-reveal'
 
 
@@ -41,6 +42,10 @@ function App() {
       <section className="competitive" id="competitive">
         <Competitive />
       </section>
+
+      <footer>
+        <Footer />
+      </footer>
 
     </>
 
