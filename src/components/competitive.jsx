@@ -10,6 +10,7 @@ import challengersLogo from '../assets/competitive/challengers_logo.png'
 import challengersWinners from '../assets/competitive/challengers_champions.jpg'
 import valorantChampsLogo from '../assets/competitive/valorant_champions_logo.png'
 import valorantChampsTrophy from '../assets/competitive/valorant_champions_trophy.webp'
+import Timeline from './timeline'
 import { americasTeams, chinaTeams, emeaTeams, pacificTeams } from '../js/teams'
 
 
@@ -104,7 +105,8 @@ function Competitive() {
                     </div>
                 </div>
                 <div className="timeline-champs">
-                    <h1>timeline Champions</h1>
+                    <h1>Galeria Champions</h1>
+                    <Timeline />
                 </div>
             </article>
         </div>

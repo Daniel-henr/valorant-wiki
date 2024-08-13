@@ -96,7 +96,5 @@ export const pacificTeams = [
     {src:t1, alt:'T1'},
     {src:talon, alt:'Talon'},
     {src:teamSecret, alt:'Team Secret'},
-    {src: zeta, alt:'Zets Division'}
+    {src: zeta, alt:'Zeta Division'}
 ]
-
-

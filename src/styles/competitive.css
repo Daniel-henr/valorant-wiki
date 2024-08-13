@@ -202,3 +202,15 @@
         margin-bottom: 1rem;
     }
 }
+
+.timeline-champs{
+    margin-top: 8dvh;
+    padding-bottom: 40px;
+}
+
+.timeline-champs h1{
+    color: #0f1923;
+    font-size: 23px;
+    padding-bottom: .5rem;
+
+}
