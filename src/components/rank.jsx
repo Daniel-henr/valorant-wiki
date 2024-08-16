@@ -9,7 +9,7 @@ function Rank() {
     return (
         <div className="rank-content">
             <div className="text-rank">
-                <div className="text-content">
+                <div className="text-rank-content">
                 <h1>Ranks</h1>
                 <p>No VALORANT, os ranks, também conhecidos como elos ou patentes, são fundamentais para medir a habilidade dos jogadores. Este sistema motiva muitos a se aprimorarem constantemente.</p>
                 </div>

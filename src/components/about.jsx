@@ -5,7 +5,7 @@ function About() {
     return (
         <div className="about-content">
             <div className="text-about-content">
-                <h1 className='hidden fade-in'>Sobre o Jogo</h1>
+                <h1 className='hidden tracking-in-contract'>Sobre o Jogo</h1>
             </div>
             <article className="contents">
                 <div className="about-img">

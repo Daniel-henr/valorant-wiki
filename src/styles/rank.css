@@ -6,7 +6,9 @@
     color: #0f1923;
     display: flex;
 
+    
     h1 {
+        color: #0f1923;
         font-size: 64px;
         padding-top: 15dvh;
     }

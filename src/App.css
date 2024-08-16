@@ -51,10 +51,12 @@
   animation: slideOn 1s forwards;
 }
 
+
+
 @keyframes slideIn {
   from {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateX(50dvh);
   }
 
   to {
@@ -78,7 +80,7 @@
 @keyframes slideOn {
   from {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(-50dvh);
   }
 
   to {
@@ -86,3 +88,8 @@
     transform: translateX(0);
   }
 }
+
+
+
+
+
