@@ -30,7 +30,7 @@
 
 .cards {
     margin: 5dvh 0px;
-    padding: 0dvh 3dvw;
+    padding: 2dvh 3dvw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -526,3 +526,25 @@
 .sentinel {
     padding-bottom: 3.5dvh;
 }
+
+.show.text-focus-in {
+	-webkit-animation: text-focus-in .55s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in .55s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(22px);
+              filter: blur(22px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  
+
+  

@@ -6,7 +6,7 @@
     color: #0f1923;
     display: flex;
 
-    
+
     h1 {
         color: #0f1923;
         font-size: 64px;
@@ -17,10 +17,11 @@
         font-size: 18px;
         font-weight: 500;
         width: 80%;
+        opacity: 0;
     }
 
-    img{
-        width: 35dvh;
+    img {
+        width: 60dvh;
         height: 30dvh;
         margin-right: 35dvh;
         margin-top: 14dvh;
@@ -28,6 +29,9 @@
     }
 }
 
+.text-rank-content p:nth-child(2) {
+    animation-delay: .2s;
+}
 
 .description-content {
     color: #0f1923;
@@ -41,16 +45,18 @@
     h3 {
         font-size: 24px;
         padding-bottom: .5em;
+
     }
 
     p {
         font-size: 16px;
         font-weight: 500;
         margin-bottom: 1rem;
+
     }
 }
 
-.right img:nth-child(1){
+.right img:nth-child(1) {
     width: 34dvw;
     height: 36dvh;
     filter: drop-shadow(4px 2px 5px #000000c4);
@@ -58,15 +64,16 @@
     transform: rotate(15deg);
 }
 
-.right img:nth-child(2){
+.right img:nth-child(2) {
     width: 19dvw;
     height: 36dvh;
     filter: drop-shadow(3px 2px 5px #000000c4);
     margin: 8dvh 20dvh 0dvh -15dvh;
 }
 
-.right-content{
+.right-content {
     width: 40%;
+
 }
 
 .left {
@@ -82,9 +89,10 @@
         font-size: 16px;
         font-weight: 500;
         margin-bottom: 1rem;
+        opacity: 0;
     }
 
-    img{
+    img {
         width: 19dvw;
         height: auto;
         filter: drop-shadow(3px 1px 6px #000000c4);
@@ -92,9 +100,70 @@
     }
 }
 
-.left-content{
+.left-content {
     width: 45%;
 }
 
+.show.slide-in {
+    animation: slide-in 1s both;
+}
 
+@keyframes slide-in {
+    from {
 
+        transform: translateX(50dvh);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.right-content h3:nth-child(1){
+    animation-delay: .3s;
+}
+
+.right-content p:nth-child(2){
+    animation-delay: .4s;
+}
+
+.right-content h3:nth-child(3){
+    animation-delay: .5s;
+}
+
+.right-content p:nth-child(4){
+    animation-delay: .6s;
+    
+}
+
+.left-content p:nth-child(2){
+    animation-delay: .2s;
+}
+
+.left-content p:nth-child(3){
+    animation-delay: .4s;
+}
+
+.left-content p:nth-child(4){
+    animation-delay: .4.5s;
+}
+
+.show.scale-in-center {
+	-webkit-animation: scale-in-center 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }

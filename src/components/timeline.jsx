@@ -7,15 +7,15 @@ function Timeline() {
     return (
         <>
             <div className="timeline">
-                <div className="timeline-content Acend-champs">
+                <div className="timeline-content Acend-champs hidden scale-in-center">
                     <h2>2021</h2>
                     <img src={acendChamps} alt="" srcset="" />
                 </div>
-                <div className="timeline-content Loud-champs">
+                <div className="timeline-content Loud-champs hidden scale-in-center">
                     <h2>2022</h2>
                     <img src={loudChamps} alt="" srcset="" />
                 </div>
-                <div className="timeline-content Evil-champs">
+                <div className="timeline-content Evil-champs hidden scale-in-center">
                     <h2>2023</h2>
                     <img src={evilChamps} alt="" srcset="" />
                 </div>

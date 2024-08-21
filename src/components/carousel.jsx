@@ -9,7 +9,8 @@ import { Navigation, Pagination } from 'swiper/modules'
 function Carousel() {
 
     return (
-        <>
+        
+        <div className='hidden slide-in'>
             <Swiper
                 modules={[Navigation, Pagination]}
                 spaceBetween={50}
@@ -90,8 +91,8 @@ function Carousel() {
 
             </Swiper>
             
-            
-        </>
+            </div>
+        
     )
 }
 

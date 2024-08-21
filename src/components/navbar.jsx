@@ -11,11 +11,11 @@ function Navbar() {
     return (
         <div className="navbar-content">
             <a href="#banner">
-                <div className="logo">
+                <div className="logo slide-in-left">
                     <img src={icon} alt="Valorant Logo" />
                 </div>
             </a>
-            <nav className="nav-content">
+            <nav className="nav-content slide-in-top">
                 <ul>
                     <li className='link-style'>
                         <a href="#about">Sobre o jogo</a>
@@ -31,7 +31,7 @@ function Navbar() {
                     </li>
                 </ul>
             </nav>
-            <div className="btn-agenda">
+            <div className="btn-agenda slide-in-right">
                 <a href="https://github.com/Daniel-henr/valorant-wiki.git" target='_blank'><button>Repositório</button></a>
             </div>
         </div>

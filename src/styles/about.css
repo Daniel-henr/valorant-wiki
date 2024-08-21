@@ -14,7 +14,7 @@
 }
 
 .contents {
-    margin-top: 14dvh;
+    margin-top: 5dvh;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -23,8 +23,8 @@
 
 .about-img,
 .about-text {
-    margin-bottom: 3.5dvh;
-    padding: 0px 3em;
+    margin-bottom: 4dvh;
+    padding: 0px 2.5em;
 }
 
 .about-img {
@@ -66,7 +66,7 @@
     width: 40%;
 
     p {
-        margin-top: 1.5dvh;
+        margin-top: 1dvh;
         color: #fefaf4;
         font-size: 18px;
     }
@@ -102,4 +102,11 @@
       opacity: 1;
     }
   }
-  
+
+.about-text p:nth-child(2){
+    animation-delay: .2s;
+}
+
+.about-text p:nth-child(3){
+    animation-delay: .4s;
+}

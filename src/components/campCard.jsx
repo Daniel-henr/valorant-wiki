@@ -6,7 +6,7 @@ import '../styles/campCard.css'
 function CampCard({leagueLogo, teams, leagueLogoStyle, teamLogoStyle}) {
 
   return (
-    <div>
+    <div className='hidden scale-in-center'>
       <div className="americasCard">
         <div className="card-original">
           <div className="league-logo">

@@ -1,5 +1,4 @@
 import '../styles/card.css'
-import duelistLogo from '../assets/agents/duelista/DuelistClassSymbol.png'
 
 function Card({ imageSrc, character, name, frontSideClass, frontContentClass, imgClass}) {
   
