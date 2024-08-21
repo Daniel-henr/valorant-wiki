@@ -1,6 +1,22 @@
 #root {
   max-width: 100%;
   margin: auto;
+  
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  z-index: 5;
+}
+
+::-webkit-scrollbar-track {
+  background: #bec8d1;  
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0f1923;   
+  border-radius: 5px;  
+   border: 2px solid transparent;
 }
 
 .about {
