@@ -12,6 +12,7 @@ import valorantChampsLogo from '../assets/competitive/valorant_champions_logo.pn
 import valorantChampsTrophy from '../assets/competitive/valorant_champions_trophy.webp'
 import Timeline from './timeline'
 import { americasTeams, chinaTeams, emeaTeams, pacificTeams } from '../js/teams'
+import { Zoom } from 'swiper/modules'
 
 
 function Competitive() {
@@ -68,8 +69,8 @@ function Competitive() {
                             <CampCard leagueLogo={vctEmea} teams={emeaTeams} leagueLogoStyle={{ width: '34px', height: 'auto', marginLeft: '0px' }} teamLogoStyle={{ width: '24px', height: 'auto', marginLeft: '2dvh' }} />
                         </div>
                         <div className="vct-pacific">
-                            <CampCard leagueLogo={vctPacific} teams={pacificTeams} leagueLogoStyle={{ width: '55px', height: 'auto', marginLeft: '0px' }} />
-                            <div style={{ width: '70%', marginLeft: '6dvh', marginTop: '4dvh' }}>
+                            <CampCard leagueLogo={vctPacific} teams={pacificTeams} leagueLogoStyle={{ width: '55px', height: 'auto', marginLeft: '0px', }} />
+                            <div style={{ width: '70%', marginLeft: '3dvw', marginTop: '4dvh' }}>
                                 <h3 className='hidden slide-in'>Valorant Champions Tour: Pacific</h3>
                                 <p className='hidden slide-in'>O Valorant Champions Tour (VCT) Pacific é uma das regiões mais vibrantes e competitivas no circuito global de Valorant, abrangendo uma vasta área que inclui países da Ásia e Oceania. A região Pacific é conhecida por sua diversidade cultural, estilos de jogo únicos e talentos emergentes que constantemente elevam o nível de competição.</p>
                             </div>
@@ -82,8 +83,8 @@ function Competitive() {
                         <img src={mastersWinners} className='hidden scale-in-center' alt="" />
                     </div>
                     <div className="masters-content">
-                        <h1>Masters: Os Destaques da Temporada</h1>
-                        <p>Parte integral do VCT, o Masters é um dos principais campeonatos de Valorant. Ele ocorre duas vezes por ano e reúne as equipes que mais se destacaram no início da temporada.</p>
+                        <h1 className='hidden slide-in'>Masters: Os Destaques da Temporada</h1>
+                        <p className='hidden slide-in' style={{animationDelay: '.1s'}}>Parte integral do VCT, o Masters é um dos principais campeonatos de Valorant. Ele ocorre duas vezes por ano e reúne as equipes que mais se destacaram no início da temporada.</p>
                         <div className='line-p hidden scale-in-top' style={{ height: 142 }}></div>
                         <p className='hidden slide-on-lft' style={{ fontWeight: 400, color: '#fefef4', marginLeft: '6dvh' }}><span style={{ fontWeight: 600 }}>Torneios Internacionais:</span> O Masters atrai as melhores equipes de várias regiões, oferecendo uma competição de alto nível.</p>
                         <p className='hidden slide-on-lft' style={{ fontWeight: 400, color: '#fefef4', marginLeft: '6dvh', animationDelay:'.1s' }}><span style={{ fontWeight: 600 }}>Objetivo:</span> As equipes competem por pontos de circuito e prêmios em dinheiro, além de garantir uma posição forte para o Valorant Champions.</p>

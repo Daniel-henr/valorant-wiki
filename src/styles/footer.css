@@ -13,7 +13,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
     padding-top: 1dvh;
     padding-bottom: 2dvh;
     border-bottom: 1px solid #fefef4;
@@ -82,5 +81,28 @@
 
     img{
         width: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-up {
+        flex-direction: row; /* Alterar para linha em telas maiores */
+        justify-content: space-between;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        width: 95%;
+    }
+
+    .footer-description {
+        margin-top: 0;
+        margin-left: 20px;
+        text-align: left; /* Altere para o alinhamento à esquerda */
+        font-size: 14px; /* Ajuste o tamanho da fonte */
+    }
+
+    .footer-down {
+        flex-direction: row; /* Alterar para linha em telas maiores */
+        justify-content: space-between;
+        width: 95%;
     }
 }

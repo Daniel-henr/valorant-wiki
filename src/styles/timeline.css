@@ -5,7 +5,7 @@
 .timeline-content {
     max-width: 40dvh;
     max-height: 25dvh;
-    margin: 0px 15px;
+    margin: 0px 1.10dvw;
     border-radius: 12px;
     display: flex;
     justify-content: center;
@@ -57,4 +57,32 @@
 
 .timeline-content:hover h2 {
     opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .timeline {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .timeline-content {
+        max-width: 60dvw; 
+        max-height: 50dvh; 
+        margin: 10px 0; 
+    }
+
+    .timeline-content h2 {
+        font-size: 6dvh; 
+    }
+}
+
+@media (max-width: 480px) {
+    .timeline-content {
+        max-width: 80vw; /* Ajusta a largura máxima para telas muito pequenas */
+        max-height: 60vh; /* Ajusta a altura máxima para telas muito pequenas */
+    }
+
+    .timeline-content h2 {
+        font-size: 6dvh; /* Ajusta o tamanho da fonte para telas muito pequenas */
+    }
 }
