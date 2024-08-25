@@ -50,3 +50,14 @@
   }
 
 }
+
+@media (max-width: 768px) {
+  .league-logo {
+
+    img {
+      margin-left: auto;
+      
+    }
+  }
+}
+

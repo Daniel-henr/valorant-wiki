@@ -5,8 +5,7 @@
 
 .swiper {
     width: 45dvw;
-    height: 200px;
-    position: relative;
+    height: 0px;
     overflow: hidden;
     display: flex;
     padding-bottom: 40dvh;
@@ -14,7 +13,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 5dvh;
-
+    border-radius: 2dvh;
 }
 
 .swiper-pagination-bullet {
@@ -32,7 +31,7 @@
     background: var(--swiper-pagination-color, var(--swiper-theme-color));
 }
 
-.ferro{
+.ferro, .bronze, .prata, .ouro, .platina, .diamante, .ascendente, .imortal, .radiante {
     background: linear-gradient(135deg, #4b4f50 0%, #1d1f1e 100%);
     justify-content: center;
     text-align: center;
@@ -49,202 +48,119 @@
     }
 
     img{
-       width: 6.5dvw;
-       height: auto;
-       margin: 2rem;
-       filter: drop-shadow(3px 3px 10px #000000af);
-    }
+        width: 6.5dvw;
+        height: 13dvh;
+        margin: 2rem;
+        filter: drop-shadow(3px 3px 10px #000000af);
+     }
+}
+
+.ferro{
+    background: linear-gradient(135deg, #4b4f50 0%, #1d1f1e 100%); 
+    color: #848486;
 }
 
 .bronze{
-    
     background: linear-gradient(135deg, #483413 0%, #1c1503 100%);
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
     color: #775528;
-    text-transform: uppercase;
-    width: 45dvw;
-    height: 35dvh;
-    border-radius: 2dvh;
-
-    h2{
-        padding-top: 3dvh;
-        font-size: 26px;
-    }
-
-    img{
-       width: 6.5dvw;
-       height: auto;
-       margin: 2rem;
-       filter: drop-shadow(3px 3px 10px #000000af);
-    }
+    
 }
 
 .prata{
     background: linear-gradient(135deg, #7b7f7e 0%, #3d4140 100%);
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
     color: #cfd3d2;
-    text-transform: uppercase;
-    width: 45dvw;
-    height: 35dvh;
-    border-radius: 2dvh;
-
-    h2{
-        padding-top: 3dvh;
-        font-size: 26px;
-    }
-
-    img{
-       width: 6.5dvw;
-       height: auto;
-       margin: 2rem;
-       filter: drop-shadow(3px 3px 10px #000000af);
-    }
 }
 
 .ouro{
     background: linear-gradient(135deg, #8b753e 0%, #3e3419 100%);
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
     color: #eec66a;
-    text-transform: uppercase;
-    width: 45dvw;
-    height: 35dvh;
-    border-radius: 2dvh;
 
-    h2{
-        padding-top: 3dvh;
-        font-size: 26px;
-    }
-
-    img{
-       width: 6.5dvw;
-       height: auto;
-       margin: 2rem;
-       filter: drop-shadow(3px 3px 10px #000000af);
-    }
 }
 
 .platina{
     background: linear-gradient(135deg, #007572 0%, #013533 100%);
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
     color: #02c8be;
-    text-transform: uppercase;
-    width: 45dvw;
-    height: 35dvh;
-    border-radius: 2dvh;
 
-    h2{
-        padding-top: 3dvh;
-        font-size: 26px;
-    }
-
-    img{
-       width: 6.5dvw;
-       height: auto;
-       margin: 2rem;
-       filter: drop-shadow(3px 3px 10px #000000af);
-    }
 }
 
 .diamante{
     background: linear-gradient(135deg, #43216a 0%, #190c2e 100%);
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
     color: #793bb0;
-    text-transform: uppercase;
-    width: 45dvw;
-    height: 35dvh;
-    border-radius: 2dvh;
 
-    h2{
-        padding-top: 3dvh;
-        font-size: 26px;
-    }
-
-    img{
-       width: 6.5dvw;
-       height: auto;
-       margin: 2rem;
-       filter: drop-shadow(3px 3px 10px #000000af);
-    }
 }
 
 .ascendente{
     background: linear-gradient(135deg, #075322 0%, #04210b 100%);
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
     color: #0e8a36;
-    text-transform: uppercase;
-    width: 45dvw;
-    height: 35dvh;
-    border-radius: 2dvh;
-
-    h2{
-        padding-top: 3dvh;
-        font-size: 26px;
-    }
-
-    img{
-       width: 6.5dvw;
-       height: auto;
-       margin: 5dvh;
-       filter: drop-shadow(3px 3px 10px #000000af);
-    }
 }
 
 .imortal{
     background: linear-gradient(135deg, #97312f 0%, #421414 100%);
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
     color: #fa585a;
-    text-transform: uppercase;
-    width: 45dvw;
-    height: 35dvh;
-    border-radius: 2dvh;
-
-    h2{
-        padding-top: 3dvh;
-        font-size: 26px;
-    }
-
-    img{
-       width: 6.5dvw;
-       height: auto;
-       margin: 2rem;
-       filter: drop-shadow(3px 3px 10px #000000af);
-    }
 }
 
 .radiante{
     background: linear-gradient(135deg, #968c64 0%, #44402d 100%);
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
     color: #fdf0a5;
-    text-transform: uppercase;
-    width: 45dvw;
-    height: 35dvh;
-    border-radius: 2dvh;
 
-    h2{
-        padding-top: 3dvh;
-        font-size: 26px;
+}
+
+
+@media (max-width: 768px) {
+    .swiper {
+        height: 23.47dvh;
+        width: 65dvw;
+        margin-left: 15%;
     }
 
-    img{
-       width: 6.5dvw;
-       height: auto;
-       margin: 2rem;
-       filter: drop-shadow(3px 3px 10px #000000af);
+    .ferro, .bronze, .prata, .ouro, .platina, .diamante, .ascendente, .imortal, .radiante {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        text-transform: uppercase;
+        width: 65dvw;
+        height: 30dvh;
+        border-radius: 2dvh;
+    }
+
+    .ferro img, .bronze img, .prata img, .ouro img, .platina img, .diamante img, .ascendente img, .imortal img, .radiante img {
+        width: 14dvw;
+        height: 10dvh;
+        margin: 4dvh 2dvw;
+        filter: drop-shadow(3px 3px 10px #000000af);
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+
+    .swiper-pagination-bullet {
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 520px) {
+    .swiper {
+        height: 10dvh;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ferro, .bronze, .prata, .ouro, .platina, .diamante, .ascendente, .imortal, .radiante {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        text-transform: uppercase;
+        width: 85dvw;
+        height: 30dvh;
+        border-radius: 2dvh;
+    }
+
+    .ferro img, .bronze img, .prata img, .ouro img, .platina img, .diamante img, .ascendente img, .imortal img, .radiante img {
+        width: 14dvw;
+        height: 10dvh;
+        margin: 4dvh 7dvw;
+        filter: drop-shadow(3px 3px 10px #000000af);
     }
 }

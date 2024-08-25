@@ -294,6 +294,111 @@
 }
 
 @media (max-width: 768px) {
+    .text-section {
+        align-items: center;
+        width: 100%;
+
+        h1 {
+            font-size: 40px;
+    
+        }
+
+        p {
+            font-size: 14px;
+            width: 97%;
+    
+        }
+    }
+    .challengers {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px 0px;
+    }
+
+    .challengers-content {
+        margin-top: 4dvh;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .challengers-content h1 {
+        font-size: 20px;
+    }
+
+    .challengers-content p {
+        font-size: 14px;
+    }
+
+    .challengers img {
+        width: 90%;
+        margin-top: 1dvh;
+    }
+
+    .challengers img:nth-child(2) {
+        width: 50dvw;
+    }
+
+    .vcts {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px 0px;
+    }
+
+    .vcts-content {
+        margin-top: 4dvh;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .vct-america {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .vct-america h3 {
+        font-size: 20px;
+    }
+
+    .vct-america p {
+        font-size: 14px;
+        padding-top: .25rem;
+    }
+
+    .vct-china {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .vct-china h3 {
+        font-size: 20px;
+    }
+
+    .vct-china p {
+        font-size: 14px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .vct-emea {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .vct-emea h3 {
+        font-size: 20px;
+    }
+
+    .vct-emea p {
+        font-size: 14px;
+        width: 90%;
+        margin: 0 auto;
+    }
 
     .vct-pacific {
         flex-direction: column-reverse;
