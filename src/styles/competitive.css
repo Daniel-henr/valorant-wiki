@@ -403,7 +403,7 @@
         text-align: center;
     }
 
-    .vct-emea .responsive {
+    .responsive-right {
         width: 100%;
     }
 
@@ -522,6 +522,14 @@
         font-size: 25px;
 
     }
+
+    @keyframes slide-on{
+        from{
+            transform: translateX(-50px);
+        }to{
+            transform: translateX(0);
+        }
+    }
 }
 
 @media (max-width: 480px) {
@@ -529,10 +537,10 @@
     .vct-america,
     .vct-china,
     .vct-emea,
-    .vct-pacific{
+    .vct-pacific {
         margin-top: 3rem;
 
-        p{
+        p {
             margin-bottom: 1rem;
         }
     }
