@@ -48,7 +48,7 @@ function Competitive() {
                     </div>
                     <div>
                         <div className="vct-america">
-                            <div style={{ width: '65%', marginRight: '5dvh', marginTop: '4dvh' }}>
+                            <div className='responsive-right'>
                                 <h3 className='hidden slide-on'>Valorant Champions Tour: América</h3>
                                 <p className='hidden slide-on'>O Valorant Champions Tour (VCT) Americas é uma parte integral do circuito global de competições de Valorant, organizado pela Riot Games. Essa liga específica abrange as regiões da América do Norte, América Latina e Brasil, proporcionando uma plataforma de alto nível para que as equipes dessas áreas se destaquem no cenário competitivo global.</p>
                             </div>
@@ -56,13 +56,13 @@ function Competitive() {
                         </div>
                         <div className="vct-china">
                             <CampCard leagueLogo={vctChina} teams={chinaTeams} leagueLogoStyle={{ width: '28px', height: 'auto', marginLeft: '0px' }} />
-                            <div style={{ width: '70%', marginLeft: '6dvh', marginTop: '4dvh' }}>
+                            <div className='responsive-left'>
                                 <h3 className='hidden slide-in'>Valorant Champions Tour: China</h3>
                                 <p className='hidden slide-in'>O Valorant Champions Tour (VCT) China é uma parte importante do circuito global de competições de Valorant, destacando o crescimento e a popularidade do jogo na região asiática. Embora a China tenha entrado no circuito competitivo de Valorant um pouco mais tarde que outras regiões, ela rapidamente se tornou um campo de intensa competição com várias equipes de destaque.</p>
                             </div>
                         </div>
                         <div className="vct-emea">
-                            <div style={{ width: '65%', marginRight: '5dvh', marginTop: '4dvh' }}>
+                            <div  className='responsive-right' >
                                 <h3 className='hidden slide-on'>Valorant Champions Tour: EMEA</h3>
                                 <p className='hidden slide-on'>O Valorant Champions Tour (VCT) EMEA é uma das regiões mais competitivas e emocionantes no circuito global de Valorant. EMEA (Europa, Oriente Médio e África) abrange uma vasta área geográfica, incluindo algumas das nações mais influentes no cenário dos eSports. A região é conhecida por seu alto nível de jogo, talento emergente e organizações renomadas.</p>
                             </div>
@@ -70,7 +70,7 @@ function Competitive() {
                         </div>
                         <div className="vct-pacific">
                             <CampCard leagueLogo={vctPacific} teams={pacificTeams} leagueLogoStyle={{ width: '55px', height: 'auto', marginLeft: '0px', }} />
-                            <div style={{ width: '70%', marginLeft: '3dvw', marginTop: '4dvh' }}>
+                            <div className='responsive-left' >
                                 <h3 className='hidden slide-in'>Valorant Champions Tour: Pacific</h3>
                                 <p className='hidden slide-in'>O Valorant Champions Tour (VCT) Pacific é uma das regiões mais vibrantes e competitivas no circuito global de Valorant, abrangendo uma vasta área que inclui países da Ásia e Oceania. A região Pacific é conhecida por sua diversidade cultural, estilos de jogo únicos e talentos emergentes que constantemente elevam o nível de competição.</p>
                             </div>

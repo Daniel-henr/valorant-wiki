@@ -109,6 +109,18 @@
     }
 }
 
+.responsive-right {
+    width: '65%';
+    margin-right: '5dvh';
+    margin-top: '4dvh';
+}
+
+.responsive-left {
+    width: '70%';
+    margin-left: '3dvw';
+    margin-top: '4dvh'
+}
+
 .vct-america p:nth-child(2) {
     animation-delay: 100ms;
 }
@@ -300,15 +312,16 @@
 
         h1 {
             font-size: 40px;
-    
+
         }
 
         p {
             font-size: 14px;
             width: 97%;
-    
+
         }
     }
+
     .challengers {
         flex-direction: column-reverse;
         align-items: center;
@@ -388,6 +401,10 @@
         margin-left: 0;
         align-items: center;
         text-align: center;
+    }
+
+    .vct-emea .responsive {
+        width: 100%;
     }
 
     .vct-emea h3 {
@@ -508,6 +525,18 @@
 }
 
 @media (max-width: 480px) {
+
+    .vct-america,
+    .vct-china,
+    .vct-emea,
+    .vct-pacific{
+        margin-top: 3rem;
+
+        p{
+            margin-bottom: 1rem;
+        }
+    }
+
     .valoChamps-content h1 {
         font-size: 18px;
         /* Ajusta o tamanho da fonte para telas muito pequenas */
@@ -538,5 +567,29 @@
         padding-bottom: 0.5rem;
         text-align: center;
         font-size: 18px;
+    }
+
+    @keyframes slide-in {
+        0% {
+            transform: translateX(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slide-on {
+        0% {
+            transform: translateX(-50px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
     }
 }

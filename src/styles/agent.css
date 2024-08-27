@@ -310,15 +310,15 @@
 .omen-front-content {
     .omen-character {
         width: 70%;
-        margin-top: 6.5dvh;
-        margin-right: 68px;
+        margin-top: 2.5rem;
+        margin-right: 4.25rem;
         filter: drop-shadow(-12px -10px 0px #778ae7);
     }
 
     p {
-        font-size: 6.5dvh;
-        top: 18dvh;
-        left: 72.08px;
+        font-size: 2.5rem;
+        top: 7.1rem;
+        left: 4.8rem;
         color: #39334f;
     }
 }
@@ -330,15 +330,15 @@
 .brim-front-content {
     .brim-character {
         width: 70%;
-        margin-top: 6.5dvh;
-        margin-right: 77.52px;
+        margin-top: 2.5rem;
+        margin-right: 4.8rem;
         filter: drop-shadow(-12px -10px 0px #687c94);
     }
 
     p {
-        font-size: 6.5dvh;
-        top: 19.5dvh;
-        left:81.6px;
+        font-size: 2.5rem;
+        top: 7.7rem;
+        left:5.5rem;
         color: #aabcd1;
     }
 }
@@ -350,15 +350,15 @@
 .viper-front-content {
     .viper-character {
         width: 70%;
-        margin-top: 6.5dvh;
-        margin-right: 81.6px;
+        margin-top: 2.5rem;
+        margin-right: 5.1rem;
         filter: drop-shadow(-12px -10px 0px #201626);
     }
 
     p {
-        font-size: 6.5dvh;
-        top: 19dvh;
-        left: 74.8px;
+        font-size: 2.5rem;
+        top: 7.5rem;
+        left: 5rem;
         color: #00b441;
     }
 }
@@ -370,15 +370,15 @@
 .astra-front-content {
     .astra-character {
         width: 70%;
-        margin-top: 6dvh;
-        margin-right: 68px;
+        margin-top: 2.3rem;
+        margin-right: 4.2rem;
         filter: drop-shadow(-12px -10px 0px #cb33b2);
     }
 
     p {
-        font-size: 6.5dvh;
-        top: 17dvh;
-        left: 68px;
+        font-size: 2.5rem;
+        top: 6.7rem;
+        left: 4.5rem;
         color: #292359;
     }
 }
@@ -390,15 +390,15 @@
 .harbor-front-content {
     .harbor-character {
         width: 70%;
-        margin-top: 6dvh;
-        margin-right: 74.8px;
+        margin-top: 2.3rem;
+        margin-right: 4.6rem;
         filter: drop-shadow(-12px -11px 0px #87806e);
     }
 
     p {
-        font-size: 6.5dvh;
-        top: 13.5dvh;
-        left: 43.52px;
+        font-size: 2.5rem;
+        top: 5.5rem;
+        left: 3rem;
         color: #3f4142;
     }
 }
@@ -410,15 +410,15 @@
 .clove-front-content {
     .clove-character {
         width: 100%;
-        margin-top: 8dvh;
-        margin-right: 77.52px;
+        margin-top: 3.1rem;
+        margin-right: 4.8rem;
         filter: drop-shadow(-10px -12px 0px #d891ef);
     }
 
     p {
-        font-size: 6.5dvh;
-        top: 15dvh;
-        left: 66.64px;
+        font-size: 2.5rem;
+        top: 6rem;
+        left: 4.5rem;
         color: #b181ff;
     }
 }
@@ -430,15 +430,15 @@
 .sage-front-content {
     .sage-character {
         width: 70%;
-        margin-top: 6dvh;
-        margin-right: 77.52px;
+        margin-top: 2.3rem;
+        margin-right: 4.8rem;
         filter: drop-shadow(-10px -12px 0px #16b199);
     }
 
     p {
-        font-size: 6.5dvh;
-        top: 19dvh;
-        left: 81.6px;
+        font-size: 2.5rem;
+        top: 7.5rem;
+        left: 5.3rem;
         color: #e8e1ee;
     }
 }
@@ -450,15 +450,15 @@
 .cypher-front-content {
     .cypher-character {
         width: 70%;
-        margin-top: 6dvh;
-        margin-right: 77.52px;
+        margin-top: 2.3rem;
+        margin-right: 4.8rem;
         filter: drop-shadow(-10px -12px 0px #40F8FA);
     }
 
     p {
-        font-size: 6.5dvh;
-        top: 15dvh;
-        left:  50.32px;
+        font-size: 2.5rem;
+        top: 6rem;
+        left:  3.5rem;
         color: #CED7F7;
     }
 }
@@ -470,15 +470,15 @@
 .killjoy-front-content {
     .killjoy-character {
         width: 70%;
-        margin-top: 6dvh;
-        margin-right: 77.52px;
+        margin-top: 2.3rem;
+        margin-right: 4.8rem;
         filter: drop-shadow(-10px -12px 0px #B54FAC);
     }
 
     p {
-        font-size: 6.5dvh;
-        top: 15dvh;
-        left: 50.32px;
+        font-size: 2.5rem;
+        top: 6rem;
+        left: 3.5rem;
         color: #4F805D;
     }
 }
@@ -490,15 +490,15 @@
 .chamber-front-content {
     .chamber-character {
         width: 70%;
-        margin-top: 6dvh;
-        margin-right: 95px;
+        margin-top: 2.3rem;
+        margin-right: 6rem;
         filter: drop-shadow(-10px -12px 0px #F24182);
     }
 
     p {
-        font-size: 6dvh;
-        top: 12.5dvh;
-        left: 36.72px;
+        font-size: 2.3rem;
+        top: 5.3rem;
+        left: 2.7rem;
         color: #E3C670;
     }
 }
@@ -510,15 +510,15 @@
 .deadlock-front-content {
     .deadlock-character {
         width: 70%;
-        margin-top: 6dvh;
-        margin-right: 54.4px;
+        margin-top: 2.3rem;
+        margin-right: 3.4rem;
         filter: drop-shadow(-10px -12px 0px #58678f);
     }
 
     p {
-        font-size: 5.6dvh;
-        top: 12.5dvh;
-        left: 34px;
+        font-size: 2.2rem;
+        top: 5rem;
+        left: 2.5rem;
         color: #3d4155;
     }
 }

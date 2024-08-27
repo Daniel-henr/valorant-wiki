@@ -169,95 +169,79 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
-    .text-rank h1 {
-        font-size: 36px;
-        padding-top: 10vh;
-    }
+@media (max-width: 768px) {
 
-    .text-rank p {
-        font-size: 16px;
-        width: 90%;
-    }
+.text-rank{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 
-    .text-rank img {
-        width: 50vw;
-        height: auto;
-        margin-right: 0;
-        margin-top: 10vh;
-    }
-
-    .right, .left {
-        flex-direction: column;
-        margin-right: 0;
-    }
-
-    .right img, .left img {
-        width: 80vw;
-        height: auto;
-        margin-left: 0;
-    }
-
-    .right img:nth-child(2){
-        margin-left: 55dvw;
-        margin-top: -30dvh;
-    }
-
-    .right-content, .left-content {
-        width: 100%;
-    }
-
-    .right-content h3, .left-content h3 {
-        font-size: 20px;
-    }
-
-    .right-content p, .left-content p {
-        font-size: 14px;
-    }
-
-    .left img{
-        position: relative;
-        left: 37%;
-        width: 24dvw;
+    p{
+        width: 95%;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .text-rank h1 {
-        font-size: 48px;
-        padding-top: 12vh;
-    }
+.text-rank-content{
+    position: absolute;
+}
 
-    .text-rank p {
-        font-size: 18px;
-        width: 85%;
-    }
-
-    .text-rank img {
-        width: 55vw;
-        height: auto;
-        margin-right: 20px;
-        margin-top: 12vh;
+    .text-rank img{
+        width: 6rem;
+        height: 5rem;
+        margin-left: 90%;
+        
     }
 
     .right, .left {
         flex-direction: column;
+        align-items: center; /* Centraliza os itens em telas pequenas */
+        margin-right: 0;
     }
 
-    .right img, .left img {
-        width: 30vw;
+    .right img:nth-child(1){
+        width: 15rem;
         height: auto;
+        position: absolute;
+        left: 14px;
+        margin: 5rem 0rem;
     }
 
-    .right-content, .left-content {
-        width: 100%;
+    .right img:nth-child(2) {
+        width: 7rem; /* Ajusta o tamanho das imagens */
+        height: auto;
+        margin: 6rem 0 3rem 4rem; /* Espaçamento vertical para não ficar apertado */
     }
 
-    .right-content h3, .left-content h3 {
-        font-size: 22px;
+    .left img{
+        width: 9rem;
+        height: auto;
+        
     }
 
-    .right-content p, .left-content p {
-        font-size: 15px;
+    .right-content, 
+    .left-content {
+        width: 100%; /* Cada coluna ocupa toda a largura em telas pequenas */
+    }
+}
+
+@media (max-width: 480px) {
+    .text-rank h1 {
+        font-size: 36px; /* Reduz o tamanho ainda mais para celulares */
+    }
+
+    .right img:nth-child(1){
+    width: 11rem;
+    margin-top: 5rem;
+    }
+
+    .right img:nth-child(2) {
+        width: 5rem;
+        height: auto;
+        margin-top: 6rem;
+    }
+
+    .left img{
+        width: 6rem;
+        height: auto;
     }
 }
